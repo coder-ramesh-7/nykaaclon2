@@ -54,7 +54,7 @@ function check(){
 
 //data fumction for profile
 function data(){
-    location.assign("../index2.html");
+    location.assign("index_b.html");
 }
 // logout function
 function log(){
