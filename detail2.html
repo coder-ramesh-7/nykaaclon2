@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkyaa-Product-details</title>
+    <link rel="stylesheet" href="detail.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+</head>
+
+<body>
+
+
+
+    <div class="img">
+        <div class="innerimg">
+
+            <div><img src="imgbanner.jpg" alt="img1" width="100%"> </div>
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="productcontainer">
+        <div class="innercontainer">
+            <div class="hoverimg">
+                <img id="detailimg" src="detailimg1.jpg" alt="img1" onmouseover="setnewimg()">
+                <img id="detailimg" src="detailimg2.jpg" alt="img2" onmouseover="setnewimg1()">
+                <img id="detailimg" src="detailimg3.jpg" alt="img3" onmouseover="setnewimg2()">
+            </div>
+            <div class="prodimg">
+                <img id="prodimgage" src="img1.jpg" alt="img" onmousemove="setoldimg()">
+            </div>
+            <div class="border"></div>
+            <div class="proddesc">
+                <div class="innerproddesc">
+                    <div class="prodtitle">
+                        <span>Love Beauty & Planet Argan Oil Paraben Free</span>
+                    </div>
+                    <div class="prodprice">
+                        <div class="pricedetail">
+                            <div class="price">
+                                <span id="strike">MRP: <strike>₹700</strike></span><span id="newprice"></span><span
+                                    id="border"></span><span id="discount">20% Off</span>
+                            </div>
+                            <div class="desc">
+                                <span>7496 ratings & 526 reviews</span>
+                                <span id="desc">inclusive of all taxes</span>
+                            </div>
+                            <div class="button">
+                                <a href="cart.html" style="text-decoration: none;"><button id="b1">Add to cart</button></a>
+
+                            </div>
+                            <div class="input">
+                                <select name="input" id="select">
+                                    <option value="1">80g</option>
+                                    <option value="2">90g</option>
+                                    <option value="3">100g</option>
+                                </select>
+                                <div class="selectbutton">
+                                    <button id="button">80g</button>
+                                    <button id="button1">300ml</button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="footer">
+                    <div class="button1">
+                        <button id="b2">Go to cart</button>
+                    </div>
+                    <div class="border"></div>
+                    <div class="textfield">
+                        <span id="footerdesc">Delivery Options</span>
+                        <input type="text" name="num" id="num" placeholder="Enter Pincode" autocomplete="off">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="zoomsl.min.js"></script>
+<script src="product2.js"></script>
+
+</body>
+
+</html>

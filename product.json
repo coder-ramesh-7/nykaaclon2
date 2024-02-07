@@ -1,0 +1,83 @@
+ [
+        {
+            "id":1,
+            "image":"img/img1.jpg",
+            "category":"Argan",
+            "desc": "Love Beauty & Planet Argan Oil Paraben Free",
+            "price": "MRP: ₹ 776"
+
+        },
+        {
+
+            "id":2,
+            "image":"img/img2.jpg",
+            "category":"Argan",
+            "desc": "Love Beauty & Planet Argan Oil Paraben Free",
+            "price": "MRP: ₹ 336"
+
+        },
+        {
+
+            "id":3,
+            "image":"img/img3.jpg",
+            "category":"Aarti",
+            "desc": "Soho Boho Studio By Aarti Thakur Oh So Denim Head Band",
+            "price": "MRP: ₹ 486"
+
+        },
+        {
+
+            "id":4,
+            "image":"img/img4.jpg",
+            "category":"Aarti",
+            "desc": "Soho Boho Studio By Aarti Thakur Oh So Denim Head Band",
+            "price": "MRP: ₹ 496"
+
+        },
+        {
+
+            "id":5,
+            "image":"img/img5.jpg",
+            "category":"Teejh Aarya",
+            "desc": "Teejh Aarya Light Green Beaded Necklace (Set of 2)",
+            "price": "MRP: ₹ 436"
+
+        },
+        {
+
+            "id":6,
+            "image":"img/img6.jpg",
+            "category":"Teejh Aarya",
+            "desc": "Teejh Aarya Light Green Beaded Necklace (Set of 2)",
+            "price": "MRP: ₹ 546"
+
+        },
+        {
+
+            "id":7,
+            "image":"img/img7.jpg",
+            "category":"Teejh Aarya",
+            "desc": "Teejh Aarya Light Green Beaded Necklace (Set of 2)",
+            "price": "MRP: ₹ 556"
+
+        },
+        {
+
+            "id":8,
+            "image":"img/img8.jpg",
+            "category":"Teejh Aarya",
+            "desc": "Teejh Aarya Light Green Beaded Necklace (Set of 2)",
+            "price": "MRP: ₹ 566"
+
+        },
+        {
+
+            "id":9,
+            "image":"img/img9.jpg",
+            "category":"Teejh Aarya",
+            "desc": "Teejh Aarya Light Green Beaded Necklace (Set of 2)",
+            "price": "MRP: ₹ 586"
+
+        }
+
+    ]

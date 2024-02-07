@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(243,243,243);
+
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    width: 1400px;
+    height: 146px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.desc span{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: normal;
+}
+.productcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1400px;
+    height: 100%;
+
+
+
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 270px;
+    height: 56%;
+    background-color: rgb(243,243,243);
+    border: 1px solid black;
+    margin-bottom: 324px
+}
+.productlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 1090px;
+    margin-left: 17px;
+    height: 100vh;
+}
+.list{
+    width: 291px;
+    height: 361px;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid lightgray;
+}
+.innerlist{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 36px;
+    background-color: #fff;
+
+}
+.listimg{
+    margin-top: 22px;
+    width: 219px;
+    height: 215px;
+    object-fit: cover;
+
+}
+.listimg img {
+    width: 219px;
+    height: 215px;
+}
+.proddesc{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    background-color: #ffff;
+
+}
+.productdesc{
+    font-size: 18px;
+    text-align: center;
+    background-color: #fff;
+    font-style: normal;
+    font-weight: 600;
+    background-color: #fff;
+
+}
+.categories{
+    margin: 10px 0 0 18px;
+    height: 52px;
+    background-color: rgb(243,243,243);
+}
+.categories span{
+    font-size: 28px;
+    font-weight: 600;
+    background-color: rgb(243,243,243);
+
+}
+.catogorylist{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    cursor: pointer;
+    height: 4860px;
+    background-color: rgb(243,243,243);
+
+}
+.argan span{
+    background-color: #fff;
+    font-size: 17px;
+    font-weight: 200;
+
+
+}
+.arganhead{
+    font-size: 21px;
+    font-weight: 400;
+    background-color: #fff;
+}
+.listitem{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #fff;
+    padding: 12px
+
+}
+.check{
+    font-size: 12px;
+}
+.argan{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+
+}
+.argan.active {
+    max-height: 200px;
+}
+
+.arganhead{
+    display: flex;
+    justify-content: space-between;
+}
+.icon{
+    background-color: #fff;
+    max-height: max-content;
+    transition: transform 0.2s;
+}
+.icon.active {
+    transform: rotate(-180deg);
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -ms-transform: rotate(-180deg);
+    -o-transform: rotate(-180deg);
+}

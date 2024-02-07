@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="resister_login.css">
+</head>
+
+<body>
+    <div class="top">
+        <a href="index.html" style="text-decoration: none;"><div id="hom" class="nav">Home</div></a>
+
+        <a href="register.html" style="text-decoration: none;">
+            <div id="log" class="nav">Register</div>
+        </a>
+    </div>
+
+    <div class="login">
+        <form name='form-login'>
+
+            <h1>SIGN IN</h1>
+
+            <label for="userName">Email</label>
+            <input type="email" id="userName" placeholder="Username" required>
+
+            <label for="userPw">Password</label>
+            <input type="password" id="userPw" placeholder="Password" required>
+
+            <div id="remember">
+                <input type="checkbox" value="lsRememberMe" id="rememberMe" style="display: inline-block;">
+                <label>Remember me</label>
+            </div>
+
+            <input id="login_btn" type="submit" value="Login" onclick="check()">
+
+        </form>
+    </div>
+    <script src="register_login.js"></script>
+</body>
+
+</html>
